@@ -7,11 +7,10 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
 @template = Liquid::Template.parse("hi {{name}}")  # Parses and compiles the template
 @template.render( 'name' => 'tobi' )               # Renders the output => "hi tobi"
+```markdown
+Syntax highlighted code block
 
 # Header 1
 ## Header 2
